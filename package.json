@@ -1,0 +1,21 @@
+{
+  "name": "markdown-to-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node convert.js codes pdfs",
+    "build-light": "node convert-light.js codes pdfs",
+    "merge": "node merge-pdf.mjs",
+    "clean": "rm pdfs/*.pdf"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "marked": "^16.1.1",
+    "md-to-pdf": "^5.2.4",
+    "pdf-merger-js": "^5.1.2"
+  }
+}
