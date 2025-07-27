@@ -1,4 +1,8 @@
 // merge-pdf.mjs
+
+// Usage: node merge-pdf.mjs <pdf1> <pdf2> ... <output.pdf>
+
+
 import PDFMerger from 'pdf-merger-js';
 import path from 'path';
 import fs from 'fs';
