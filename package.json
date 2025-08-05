@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "node convert.js codes pdfs",
-    "build-light": "node convert-light.js codes pdfs",
     "merge": "node merge-pdf.mjs",
-    "clean": "rm pdfs/*.pdf"
+    "clean": "rm merge/*.pdf"
   },
   "keywords": [],
   "author": "",

@@ -20,6 +20,10 @@ img {
     max-width: 100%;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .page-break {
     page-break-after: always;
 }
