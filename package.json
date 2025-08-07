@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node convert.js codes pdfs",
+    "build": "node convert.js notes pdfs",
     "merge": "node merge-pdf.mjs",
-    "clean": "rm merge/*.pdf"
+    "clean-pdfs": "rm pdfs/*.pdf",
+    "clean-merge": "rm merge/*.pdf"
   },
   "keywords": [],
   "author": "",
